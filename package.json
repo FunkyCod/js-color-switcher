@@ -1,0 +1,25 @@
+{
+  "name": "js-color-switcher",
+  "version": "1.0.0",
+  "description": "js-color-switcher",
+  "homepage": "https://FunkyCod.github.io/js-color-switcher",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /js-color-switcher/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FunkyCod/js-color-switcher.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FunkyCod/js-color-switcher/issues"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.7.4"
+  }
+}
